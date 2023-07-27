@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Lato:wght@100;300;400;700&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Share+Tech&display=swap');
+
+h1,
+h2,
+h3 {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -1px;
+  color: var(--colors-principal);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.container-extra {
+  width: 100%;
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.titulo {
+  font-size: 4.4rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.titulo::after {
+  content: " ";
+  height: 4px;
+  width: 60px;
+  background-color: var(--cor-extra-1);
+  display: block;
+  margin: 12px auto;
+}
+
+.sub-titulo {
+  font-size: 2.4rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  color: var(--cor-white);
+
+}
+
+.sub-titulo::after {
+  content: " ";
+  height: 4px;
+  width: 40px;
+  background-color: var(--cor-extra-1);
+  display: block;
+  margin: 12px 0;
+}
+
+.sub-titulo-centro::after {
+  content: " ";
+  height: 4px;
+  width: 40px;
+  background-color: var(--cor-extra-1);
+  display: block;
+  margin: 12px auto;
+}
+
+
+.btn-principal {
+  background: linear-gradient(113.28deg, #E891FF -0.53%, rgba(134, 172, 250, 0.47) 101.56%);
+  padding: 1.5rem 3rem;
+  color: var(--cor-padrão);
+  margin-top: 1rem;
+  border-radius: 0.4rem;
+  text-transform: uppercase;
+}

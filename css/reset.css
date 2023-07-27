@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: 'Noto Sans', 'Poppins', sans-serif, monospace;
+  cursor:none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: var(--colors-background-1);
+  color: var(--cor-padrão);
+}
+
+a {
+  cursor: pointer;
+}

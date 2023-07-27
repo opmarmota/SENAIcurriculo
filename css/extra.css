@@ -1,0 +1,83 @@
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-tabs li:not(:first-child) {
+  margin-left: 1.5rem;
+}
+
+.nav-tabs li a {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.8rem;
+  border: 1px solid var(--cor-padrão);
+  border-radius: 5px;
+  color: var(--c);
+  transition: color 0.3s, var(--colors-background-1) 0.3s;
+}
+
+.nav-tabs li a.active,
+.nav-tabs li a:hover {
+  background: linear-gradient(113.28deg, #E891FF -0.53%, rgba(134, 172, 250, 0.47) 101.56%);
+  transition: 0.8s;
+  color: #ffffff;
+}
+
+.tab-content {
+  border: 2px solid var(--colors-background-2);
+  border-radius: 5px;
+  max-width: 85%;
+  margin: 1rem auto;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+}
+
+.tab-content .tab-pane {
+  display: none;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.tab-content .tab-pane.active {
+  display: block;
+  animation: fadeIn 0.3s forwards;
+}
+
+.tab-content .tab-pane h2 {
+  font-size: 2.6rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tab-content .tab-pane p {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+.tab-content img {
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.projeto-div a{
+  text-align: center;
+  justify-items: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
